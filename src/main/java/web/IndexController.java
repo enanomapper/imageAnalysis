@@ -27,8 +27,8 @@ import java.util.List;
 public class IndexController implements Serializable {
 
 	private final String FORM_SUBMITTED = "The form submitted successfully!";
-	private final String DIR_PATH2 = "/home/beast/Projects/imageAnalysis/src/main/webapp/WEB-INF/files/";
-	private final String DIR_PATH = "/Users/cerebro/Projects/imageAnalysis/src/main/webapp/WEB-INF/files/";
+	private final String DIR_PATH2 = "/src/main/webapp/WEB-INF/files/";
+	private final String DIR_PATH = "/src/main/webapp/WEB-INF/files/";
 	private final int BUFFER_SIZE = 6124;
 
 	private FormModel formModel;
